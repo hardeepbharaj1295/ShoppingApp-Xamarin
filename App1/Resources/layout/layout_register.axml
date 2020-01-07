@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:background="#b0c4de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+		android:layout_margin="20dp"
+		android:gravity="center_horizontal"
+		android:text="Register"
+		android:textStyle="bold"
+		android:textSize="40dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+    <EditText
+		android:layout_marginTop="60dp"
+        android:hint="Enter your Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName" />
+    <EditText
+        android:inputType="number"
+        android:hint="Enter your Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtDepart" />
+    <EditText
+        android:hint="Enter your Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEmail" />
+    <EditText
+        android:hint="Enter your Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/edtPassword" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+</LinearLayout>
